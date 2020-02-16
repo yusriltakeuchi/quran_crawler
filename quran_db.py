@@ -1,6 +1,6 @@
 import requests
-from db_handler import DBHandler
-from crawler import Crawler
+from core.db_handler import DBHandler
+from core.crawler import Crawler
 
 def headers():
     print("    /-------------------------/")
